@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">CR_Income_And_Expenditure_APP</string>
+    <string name="banner_ad_unit_id">ca-app-pub-3940256099942544/6300978111</string>
+
+    <string-array name="win_loss">
+        <item>+</item>
+        <item>-</item>
+    </string-array>
+
+</resources>
