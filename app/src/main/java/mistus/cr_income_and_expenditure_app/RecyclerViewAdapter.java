@@ -16,7 +16,7 @@ import android.widget.TextView;
     //RecyclerViewAdapter実装,
     public class RecyclerViewAdapter extends RecyclerView.Adapter<RecyclerViewAdapter.ViewHolder>{
 
-        private int[] imaeId;
+        private int[] imageId;
         private int[] digital;
 
         //1
@@ -30,7 +30,7 @@ import android.widget.TextView;
 
         //2建構子
         public RecyclerViewAdapter(int[] imaeId, int[] digital){
-            this.imaeId = imaeId;
+            this.imageId = imaeId;
             this.digital = digital;
         }
 
@@ -58,7 +58,7 @@ import android.widget.TextView;
         @Override
         public int getItemCount() {
 
-            return imaeId.length;
+            return imageId.length;
         }
 
     }

@@ -7,6 +7,21 @@
         <item name="colorPrimary">@color/colorPrimary</item>
         <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
         <item name="colorAccent">@color/colorAccent</item>
+
+        <!--++-->
+        <!--<item name="android:background">#444444</item>-->
+        <!--<item name="android:actionBarSize">100dp</item>-->
+        <!--<item name="android:actionButtonStyle">@style/myActionButtonStyle</item>-->
     </style>
 
+    <style name="BlackTheme"  parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="android:background">#444444</item>
+    </style>
+
+    <style name="myActionButtonStyle" parent="Widget.AppCompat.ActionButton">
+        <item name="android:background">#e8e8e8</item>
+
+        <!--<item name="android:height">100dp</item>-->
+
+    </style>
 </resources>
