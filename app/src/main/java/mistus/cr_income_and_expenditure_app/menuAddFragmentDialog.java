@@ -1,6 +1,9 @@
 package mistus.cr_income_and_expenditure_app;
 
 import android.app.DialogFragment;
+import android.graphics.Bitmap;
+import android.graphics.drawable.BitmapDrawable;
+import android.graphics.drawable.Drawable;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.LayoutInflater;
@@ -23,11 +26,15 @@ public class menuAddFragmentDialog extends DialogFragment implements View.OnClic
                              Bundle savedInstanceState) {
         View view = inflater.inflate(R.layout.fragment_dialog_add_income_and_expenditure, container, false);
         getDialog().getWindow().requestFeature(Window.FEATURE_NO_TITLE);
+
+        this.setStyle(DialogFragment.STYLE_NO_TITLE, R.style.AppTheme);
+
         okButton = (Button)view.findViewById(R.id.OK);
         cancelButton = (Button)view.findViewById(R.id.Cancel);
 
         okButton.setOnClickListener(this);
         cancelButton.setOnClickListener(this);
+
         return view;
     }
 

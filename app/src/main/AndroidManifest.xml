@@ -26,8 +26,10 @@
         </activity>
 
         <activity android:name=".MainActivity"
-            android:icon="@mipmap/ic_launcher"
-            android:label="test" ></activity>
+        android:icon="@mipmap/ic_launcher"
+        android:label="五月收支:+500000"
+        android:theme="@style/BlackTheme"></activity>
+
         <activity
             android:name="com.google.android.gms.ads.AdActivity"
             android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize"
